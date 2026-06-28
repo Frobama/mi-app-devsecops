@@ -6,8 +6,8 @@ const config = {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   collectCoverageFrom: [
-    'src/**/*.{ts,tsx}',
-    '!src/**/*.d.ts',
+    "components/**/*.{ts,tsx}",
+    "!**/*.d.ts",
   ],
   coverageThreshold: {
     global: {
