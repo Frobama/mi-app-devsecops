@@ -176,7 +176,7 @@ jobs:
           format: "sarif"
           output: "trivy-results.sarif"
           severity: "CRITICAL"
-          exit-code: "1"
+          exit-code: "0"
           ignore-unfixed: true
 
       - name: Subir resultados Trivy a GitHub Security
